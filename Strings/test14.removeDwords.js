@@ -1,0 +1,18 @@
+let s1 = "cat mat bat cat mat bat bat" ;
+let str = s1.split(" ") ;
+
+for(let i = 0 ; i<str.length ;i++){
+    let count =  1;
+    if(str[i] == ""){
+        continue ;
+    }
+    for(let j = i+1 ;j<str.length ;j++){
+        if(str[i] == str[j]){
+            str[j] = "" ;
+        }
+    }
+}
+
+let ans = str.join(" ");
+console.log(ans);
+
