@@ -1,6 +1,6 @@
 let str = "banana" ;
 let strArr = [...str] ;
-let min = Number.MAX_SAFE_INTEGER ;
+let min = Number.MAX_SAFE_INTEGER;
 let ans = ""
 
 for(let i = 0 ; i< strArr.length ;i++){
