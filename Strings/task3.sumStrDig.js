@@ -10,4 +10,5 @@ for(let i = 0 ; i<strArr.length ;i++){
 
 console.log(sum);
 
-
+let char = 'z' ;
+console.log(char.charCodeAt()) // returns the ASCII Value 
