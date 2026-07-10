@@ -9,7 +9,7 @@ function checkMaxSubPalindrome(str){
             let s1 = str.substring(i,j) ;
             if(isPalindrome(s1)){
                 if(s1.length > max){
-                    max = s1.lenght ;
+                    max = s1.length ;
                     res = s1 ;
                 }
             }

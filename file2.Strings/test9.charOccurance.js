@@ -14,3 +14,7 @@ for(let i = 0 ; i< strArr.length ; i++){
     }
     console.log(strArr[i] , " : ", count);
 }
+
+let a = 'Z' ;
+console.log(a.charCodeAt());
+

@@ -11,11 +11,3 @@ export function isPalindrome(str){
     }
     return true ;
 }
-
-let str = "mAam" ;
-
-if(isPalindrome(str)){
-    console.log("it's a palindrome");
-}else{
-    console.log(("it's not a palindrome"));
-}
