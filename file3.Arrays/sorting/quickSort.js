@@ -10,7 +10,7 @@ function sort(start,end,arr){
     if(i<=j){
         let temp = arr[i] ;
         arr[i] = arr[j] ;
-        arr[j] = temp 
+        arr[j] = temp  ;
         i++;
         j--
     }

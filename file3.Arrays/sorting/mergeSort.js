@@ -28,7 +28,6 @@ function sort(arr){
     for(let i = left.length ;i<arr.length ;i++){
         right[i - left.length] = arr[i]
     }
-
     sort(left) ;
     sort(right) ;
     merge(left,right,arr) ;
